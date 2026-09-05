@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener-analytics-gateway",
+  "version": "1.0.0",
+  "description": "Sub-4ms URL redirection with Redis Cache-Aside, Base62 counter hashing, and async click telemetry",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  },
+  "author": "DeepuDK2 <DeepuDK2@users.noreply.github.com>",
+  "license": "MIT"
+}
